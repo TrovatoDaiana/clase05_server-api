@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "nombre": "Martillo",
+    "precio": 1200
+  },
+  {
+    "id": 2,
+    "nombre": "Destornillador",
+    "precio": 800
+  }
+]
