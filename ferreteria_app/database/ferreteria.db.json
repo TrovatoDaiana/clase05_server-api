@@ -1,12 +1,54 @@
 [
   {
-    "id": 1,
-    "nombre": "Martillo",
-    "precio": 1200
-  },
-  {
     "id": 2,
     "nombre": "Destornillador",
     "precio": 800
+  },
+  {
+    "id": "6dae6842",
+    "tags": [
+      "herramienta",
+      "ferreteria"
+    ]
+  },
+  {
+    "id": "b6b12b69",
+    "tags": [
+      "herramienta",
+      "ferreteria"
+    ]
+  },
+  {
+    "id": "4533ebe4",
+    "tags": [
+      "herramienta",
+      "ferreteria"
+    ]
+  },
+  {
+    "id": 123,
+    "nombre": "Destornillador",
+    "precio": 800
+  },
+  {
+    "id": "e2b16c06",
+    "tags": [
+      "herramienta",
+      "ferreteria"
+    ]
+  },
+  {
+    "id": "7342259a",
+    "tags": [
+      "herramienta",
+      "ferreteria"
+    ]
+  },
+  {
+    "id": "c094ba94",
+    "tags": [
+      "herramienta",
+      "ferreteria"
+    ]
   }
 ]
