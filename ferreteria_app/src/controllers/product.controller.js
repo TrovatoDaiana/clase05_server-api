@@ -20,6 +20,28 @@ const repo = new DataBaseRepository(jsonPath);
 const dataBase = repo;
 
 export const ProductController = {
+  getAllData: async (req, res) => {
+    const products = await dataBase.getAllData();
+    const productsObjectArray = products.map(
+      (product) =>
+        new Product(
+          product?.nombre,
+          product?.descripcion,
+          product?.cantidad,
+          product?.tags,
+          product?.id,
+        ),
+    );
+
+    res.json({
+      status: 200,
+      ok: true,
+      message: "Lista de productos",
+      payload: productsObjectArray,
+    });
+    return;
+  },
+
   getById: async (req, res) => {
     const idParam = req.params.id;
 
